@@ -4,7 +4,7 @@ jQuery(function ($) {
             var mapOptions = {
                 center: myLocation,
                 zoom: 16,
-			    mapTypeId: google.maps.MapTypeId.TERRAIN
+			    mapTypeId: google.maps.MapTypeId.SATELLITE
             };
             var marker = new google.maps.Marker({
                 position: myLocation,
